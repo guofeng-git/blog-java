@@ -1,0 +1,32 @@
+2020-12-29 11:03:33.133 [main] INFO  com.sjf.StartApplication - Starting StartApplication on LAPTOP-D0J7NC5R with PID 7308 (C:\workspace\blog\target\classes started by guo in C:\workspace\blog)
+2020-12-29 11:03:33.133 [main] INFO  com.sjf.StartApplication - The following profiles are active: test
+2020-12-29 11:05:18.024 [main] INFO  com.sjf.StartApplication - Starting StartApplication on LAPTOP-D0J7NC5R with PID 1632 (C:\workspace\blog\target\classes started by guo in C:\workspace\blog)
+2020-12-29 11:05:18.024 [main] INFO  com.sjf.StartApplication - The following profiles are active: test
+2020-12-29 11:05:19.617 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 28090 (http)
+2020-12-29 11:05:19.632 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-28090"]
+2020-12-29 11:05:19.644 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 11:05:19.645 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-12-29 11:05:19.772 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-29 11:05:19.772 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1652 ms
+2020-12-29 11:05:19.983 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-29 11:05:20.245 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-28090"]
+2020-12-29 11:05:20.282 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 28090 (http) with context path ''
+2020-12-29 11:05:20.285 [main] INFO  com.sjf.StartApplication - Started StartApplication in 2.854 seconds (JVM running for 3.297)
+2020-12-29 11:06:13.217 [http-nio-28090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 11:06:13.217 [http-nio-28090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 11:06:13.224 [http-nio-28090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-12-29 11:07:09.141 [main] INFO  com.sjf.StartApplication - Starting StartApplication on LAPTOP-D0J7NC5R with PID 17776 (C:\workspace\blog\target\classes started by guo in C:\workspace\blog)
+2020-12-29 11:07:09.141 [main] INFO  com.sjf.StartApplication - The following profiles are active: test
+2020-12-29 11:07:10.619 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 28090 (http)
+2020-12-29 11:07:10.635 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-28090"]
+2020-12-29 11:07:10.649 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 11:07:10.650 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-12-29 11:07:10.787 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-29 11:07:10.787 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1565 ms
+2020-12-29 11:07:11.001 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-29 11:07:11.270 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-28090"]
+2020-12-29 11:07:11.299 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 28090 (http) with context path ''
+2020-12-29 11:07:11.302 [main] INFO  com.sjf.StartApplication - Started StartApplication in 2.703 seconds (JVM running for 3.156)
+2020-12-29 11:07:17.946 [http-nio-28090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 11:07:17.946 [http-nio-28090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-29 11:07:17.952 [http-nio-28090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms

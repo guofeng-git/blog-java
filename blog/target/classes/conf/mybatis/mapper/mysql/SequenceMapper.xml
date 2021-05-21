@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sjf.dao.SequenceMapper" >
+
+  <select id="findNextValue" parameterType="java.lang.String" resultType="java.lang.String">
+	select getSequenceValue(#{sName}) from dual
+  </select>
+  
+  <select id="selectSyssesq" parameterType="java.lang.String" resultType="java.lang.String">
+	select trim(to_char(S_TERM_NO.NEXTVAL,'000000')) as syssesq from dual
+  </select>
+</mapper>

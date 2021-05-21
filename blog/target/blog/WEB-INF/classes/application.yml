@@ -1,0 +1,44 @@
+server: 
+  undertow: 
+    buffer-size: 4096
+    io-threads: 20
+    max-http-post-size: -1
+    worker-threads: 160
+  port: 8090
+
+spring: 
+  datasource: 
+    type: com.alibaba.druid.pool.DruidDataSource
+  profiles: 
+   active: test
+
+datasource: 
+  druid: 
+    filters: stat
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://180.76.109.47:3306/blog?useUnicode=true&characterEncoding=utf8
+    username: sql180_76_109_4
+    password: nFnTYNMEh5
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+      
+mybatis: 
+  mapperLocations: classpath:conf/mybatis/mapper/mysql/*.xml
+  typeAliasesPackage: com.sjf.form
+
+communicate: 
+  serverip: 180.76.109.47
+  serverport: 22
+
+images: 
+  url: /home/blog/images/

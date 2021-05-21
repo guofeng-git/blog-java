@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<!--namespace的作用是为这张表取一个名字，好在 impl类中进行访问 -->
+<mapper namespace="dual">
+	
+	<select id="getDatabasetime" resultType="java.lang.String">
+	    select date_format(SYSDATE(),'%Y%m%d%H%i%S')
+	</select>
+	
+</mapper>
